@@ -161,7 +161,7 @@
               
                 $.ajax({
                     type: "POST",
-                    url: "generate",
+                    url: '{{url("generate")}}',
                     data: query,
                     success: function(data) {
                         $('#arc').hide();
